@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国法学论文全流程"
+  short_description: "融合十套技能的中国法学课程论文选题、研究、论证、引注、修订与交付流程"
+  default_prompt: "使用 $chinese-law-paper-workflow，根据我的课程要求与材料完成中国法学论文写作或修改。"

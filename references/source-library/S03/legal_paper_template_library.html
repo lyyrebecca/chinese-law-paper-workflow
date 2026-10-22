@@ -1,0 +1,528 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.top-bar{display:flex;gap:8px;flex-wrap:wrap;padding:16px 0 12px}
+.tab{padding:6px 14px;border-radius:20px;border:0.5px solid var(--color-border-secondary);font-size:13px;cursor:pointer;background:transparent;color:var(--color-text-secondary);transition:all .15s}
+.tab.active{background:var(--color-text-primary);color:var(--color-background-primary);border-color:transparent}
+.overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}
+.type-card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:14px;cursor:pointer;transition:border-color .15s;background:var(--color-background-primary)}
+.type-card:hover{border-color:var(--color-border-primary)}
+.type-card.selected{border-width:1.5px;border-color:var(--color-text-primary)}
+.type-tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-bottom:8px}
+.type-name{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.type-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.papers-list{font-size:12px;color:var(--color-text-tertiary);margin-top:6px}
+.detail-panel{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:20px;background:var(--color-background-primary)}
+.detail-header{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:16px;border-bottom:0.5px solid var(--color-border-tertiary)}
+.detail-tag{padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500}
+.detail-title{font-size:17px;font-weight:500;color:var(--color-text-primary)}
+.detail-subtitle{font-size:13px;color:var(--color-text-secondary);margin-top:2px}
+.section-label{font-size:11px;font-weight:500;color:var(--color-text-tertiary);letter-spacing:.06em;text-transform:uppercase;margin:16px 0 8px}
+.trigger-list{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.trigger-pill{padding:4px 10px;border-radius:12px;font-size:12px;background:var(--color-background-secondary);color:var(--color-text-secondary);border:0.5px solid var(--color-border-tertiary)}
+.template-box{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:14px;margin-bottom:12px}
+.template-step{display:flex;gap:10px;margin-bottom:10px;align-items:flex-start}
+.step-num{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:500;flex-shrink:0;margin-top:1px}
+.step-content{flex:1}
+.step-title{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.step-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.papers-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:4px}
+.paper-card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:10px 12px;background:var(--color-background-primary)}
+.paper-name{font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.paper-author{font-size:11px;color:var(--color-text-tertiary)}
+.paper-note{font-size:11px;color:var(--color-text-secondary);margin-top:4px;line-height:1.5}
+.pitfall-list{list-style:none}
+.pitfall-item{font-size:12px;color:var(--color-text-secondary);padding:4px 0;padding-left:14px;position:relative;line-height:1.5}
+.pitfall-item::before{content:"—";position:absolute;left:0;color:var(--color-text-tertiary)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hint-box{border-left:2px solid;border-radius:0;padding:10px 12px;margin-top:12px}
+</style>
+
+<h2 class="sr-only">法学论文模板库：25篇高引用论文分类与论证模板</h2>
+
+<div class="top-bar">
+  <button class="tab active" onclick="switchTab('overview',this)">总览</button>
+  <button class="tab" onclick="switchTab('概念澄清',this)">概念澄清型</button>
+  <button class="tab" onclick="switchTab('理论重构',this)">理论重构型</button>
+  <button class="tab" onclick="switchTab('类型归纳',this)">类型归纳型</button>
+  <button class="tab" onclick="switchTab('制度演化',this)">制度演化型</button>
+  <button class="tab" onclick="switchTab('判例线索',this)">判例线索型</button>
+  <button class="tab" onclick="switchTab('技艺升级',this)">技艺升级型</button>
+</div>
+
+<div id="view-overview">
+<div class="overview-grid">
+  <div class="type-card" onclick="switchTab('概念澄清',null,this)">
+    <div class="type-tag" style="background:#EEEDFE;color:#3C3489">概念澄清型</div>
+    <div class="type-name">厘清混乱，重划边界</div>
+    <div class="type-desc">当领域核心概念被误用、混用或理解模糊时，通过规范分析重新界定</div>
+    <div class="papers-list">张翔×3 · 陈端洪×2 · 强世功</div>
+  </div>
+  <div class="type-card" onclick="switchTab('理论重构',null,this)">
+    <div class="type-tag" style="background:#E1F5EE;color:#085041">理论重构型</div>
+    <div class="type-name">颠覆既有，另立新说</div>
+    <div class="type-desc">批判现有理论框架的不足，在争议焦点上提出系统性替代方案</div>
+    <div class="papers-list">黄明涛×2 · 苏力×2</div>
+  </div>
+  <div class="type-card" onclick="switchTab('类型归纳',null,this)">
+    <div class="type-tag" style="background:#FAECE7;color:#712B13">类型归纳型</div>
+    <div class="type-name">分类整序，提炼规律</div>
+    <div class="type-desc">面对大量案例或制度时，归纳出分析框架和类型化规律</div>
+    <div class="papers-list">王贵松×2 · 应松年×2 · 陈光中×3</div>
+  </div>
+  <div class="type-card" onclick="switchTab('制度演化',null,this)">
+    <div class="type-tag" style="background:#FAEEDA;color:#633806">制度演化型</div>
+    <div class="type-name">追踪变迁，把握趋势</div>
+    <div class="type-desc">以历史演变为主线，说明制度为何变、如何变、往何处变</div>
+    <div class="papers-list">强世功 · 苏力 · 陈光中（监察）</div>
+  </div>
+  <div class="type-card" onclick="switchTab('判例线索',null,this)">
+    <div class="type-tag" style="background:#FBEAF0;color:#72243E">判例线索型</div>
+    <div class="type-name">以案说法，以法解案</div>
+    <div class="type-desc">以具体案例或判例为切入口，向外辐射理论与制度分析</div>
+    <div class="papers-list">苏力×2 · 李双元</div>
+  </div>
+  <div class="type-card" onclick="switchTab('技艺升级',null,this)">
+    <div class="type-tag" style="background:#E6F1FB;color:#0C447C">技艺升级型</div>
+    <div class="type-name">方法批判，工具精进</div>
+    <div class="type-desc">针对现有法律方法或解释技术的缺陷，提出更精细的操作规则</div>
+    <div class="papers-list">张翔 · 黄明涛 · 苏力</div>
+  </div>
+</div>
+<div style="padding:12px 14px;border-radius:var(--border-radius-md);background:var(--color-background-secondary);font-size:12px;color:var(--color-text-secondary);line-height:1.7">
+  点击任意类型卡片，或顶部标签，查看详细论证模板与代表论文分析。
+</div>
+</div>
+
+<div id="view-概念澄清" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#EEEDFE;color:#3C3489">概念澄清型</div>
+  <div><div class="detail-title">厘清混乱，重划边界</div><div class="detail-subtitle">适用场景：核心概念被误用、混用，或内涵外延模糊不清</div></div>
+</div>
+
+<div class="section-label">触发信号 — 遇到这些情况用这个模板</div>
+<div class="trigger-list">
+  <span class="trigger-pill">学界对X有多种不同理解</span>
+  <span class="trigger-pill">实践中X和Y被混为一谈</span>
+  <span class="trigger-pill">X的内涵无法支撑当前的司法/立法操作</span>
+  <span class="trigger-pill">域外理论移植后发生了变形</span>
+</div>
+
+<div class="section-label">论证模板（核心逻辑）</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#EEEDFE;color:#3C3489">1</div>
+    <div class="step-content"><div class="step-title">呈现概念乱象</div><div class="step-desc">列举学界/实务界对该概念的多种分歧理解，指出其造成的混乱后果。关键句：「对X的界定，学界至少存在A、B、C三种立场，彼此相互扞格。」</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#EEEDFE;color:#3C3489">2</div>
+    <div class="step-content"><div class="step-title">溯源：概念从哪来</div><div class="step-desc">追溯该概念的规范渊源（宪法文本、立法史、比较法），说明其原始含义与演变脉络。这是后续「正本清源」的基础。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#EEEDFE;color:#3C3489">3</div>
+    <div class="step-content"><div class="step-title">分析：现有界定错在哪</div><div class="step-desc">逐一批驳既有立场，指出其内在矛盾、与规范文本的偏差、或无法解释特定案例。这一步是论文的核心论证。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#EEEDFE;color:#3C3489">4</div>
+    <div class="step-content"><div class="step-title">提出：新的概念界定</div><div class="step-desc">给出自己的定义——要有三个维度：内涵（是什么）、外延（包括什么/不包括什么）、功能（这样界定解决了什么问题）。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#EEEDFE;color:#3C3489">5</div>
+    <div class="step-content"><div class="step-title">验证：以案例或规范检验</div><div class="step-desc">用新界定解释此前令人困惑的案例或规范现象，证明其解释力。「依据本文的界定，以下疑难得以解决……」</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">基本权利的双重性质</div>
+    <div class="paper-author">张翔</div>
+    <div class="paper-note">澄清「主观权利/客观秩序」两种性质并非对立，而是基本权利功能的两面。先破后立，通过德国法与中国宪法文本双重比对确立新界定。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">两种"宪法解释"的概念分野</div>
+    <div class="paper-author">黄明涛</div>
+    <div class="paper-note">区分「宪法解释」与「合宪性解释」两个混淆概念，厘清各自的规范依据与操作边界，为后续讨论奠定概念基础。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">论宪法作为国家的根本法与高级法</div>
+    <div class="paper-author">陈端洪</div>
+    <div class="paper-note">重新界定「根本法」含义，区分实质意义（政治决断）与形式意义（制定程序），批驳仅从形式理解宪法的观点。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">财产权的社会义务</div>
+    <div class="paper-author">张翔</div>
+    <div class="paper-note">澄清「社会义务」不是对财产权的外部限制，而是其内在构成要素。概念重构直接改变了财产权限制的合宪性审查逻辑。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#534AB7;background:#EEEDFE">
+  <div style="font-size:12px;color:#3C3489;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>这类论文的成败在于第3步。批驳既有立场时要「对事不对人」，不能只说「前人错了」，要说清「前人的逻辑在哪一步断裂」。第4步的新界定不能太宽（失去辨别力）也不能太窄（解释力不足）。</div>
+</div>
+</div>
+</div>
+
+<div id="view-理论重构" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#E1F5EE;color:#085041">理论重构型</div>
+  <div><div class="detail-title">颠覆既有，另立新说</div><div class="detail-subtitle">适用场景：现有理论框架无法解释实践现象，或存在根本性缺陷</div></div>
+</div>
+
+<div class="section-label">触发信号</div>
+<div class="trigger-list">
+  <span class="trigger-pill">主流理论与现实明显脱节</span>
+  <span class="trigger-pill">各方批评热闹但无人提出系统替代</span>
+  <span class="trigger-pill">移植的域外理论在本土「水土不服」</span>
+  <span class="trigger-pill">实践已走到理论前面</span>
+</div>
+
+<div class="section-label">论证模板</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">1</div>
+    <div class="step-content"><div class="step-title">确立「问题意识」</div><div class="step-desc">描述现有理论框架，指出其面临的「解释危机」——哪些现象它解释不了，哪些推论它支撑不了。这是整篇论文的出发点。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">2</div>
+    <div class="step-content"><div class="step-title">诊断：既有理论的根源性缺陷</div><div class="step-desc">不是枚举错误，而是找到那个「根本性的错误预设」。例如：苏力指出法条主义预设了法律与民意的分离；黄明涛指出批评者预设了两种法律传统的对立。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">3</div>
+    <div class="step-content"><div class="step-title">提出新框架的核心命题</div><div class="step-desc">通常是1-2个核心论断，要足够清晰以至于可以被反驳。论文的所有论证都为这几个命题服务。命题要有反直觉性——如果人人都同意，就没有重构的必要。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">4</div>
+    <div class="step-content"><div class="step-title">展开：分层论证新框架</div><div class="step-desc">分2-4节分别从不同维度（规范、理论、比较、历史）支撑核心命题。每节都是独立论证，但共同服务于同一核心命题。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">5</div>
+    <div class="step-content"><div class="step-title">回应可能的反驳</div><div class="step-desc">主动预设最强的反对意见并回应。这一步体现学术诚实，也是论文说服力的关键。「或许有人会说……但这种反驳忽略了……」</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E1F5EE;color:#085041">6</div>
+    <div class="step-content"><div class="step-title">制度含义：新框架能改变什么</div><div class="step-desc">说明新框架对司法实践、立法设计或学术研究的具体影响，避免论文停留在纯粹理论层面。</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">法条主义、民意与难办案件</div>
+    <div class="paper-author">苏力</div>
+    <div class="paper-note">核心命题：法条主义无法独立解决难案，民意是正当的法律渊源而非干扰变量。重构了「法律与社会」的关系框架。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">论全国人大常委会释法模式</div>
+    <div class="paper-author">黄明涛</div>
+    <div class="paper-note">核心命题：人大常委会在基本法体制中具有「新身份」，释法互动是制度必然而非主权挑战。颠覆了大陆学界的主流批评立场。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">法律与科技问题的法理学重构</div>
+    <div class="paper-author">苏力</div>
+    <div class="paper-note">核心命题：科技问题不能用传统法学框架处理，需要社科法学的方法介入。先解构「法律万能论」，再提出社会科学视角。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">中国宪法中的不成文宪法</div>
+    <div class="paper-author">强世功</div>
+    <div class="paper-note">核心命题：理解中国宪法必须看「不成文」的政治实践层面，成文文本只是冰山一角。重构了中国宪法研究的方法论基础。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#0F6E56;background:#E1F5EE">
+  <div style="font-size:12px;color:#085041;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>理论重构型最忌「只破不立」——批判既有理论写了3/4篇幅，自己的替代方案只有几段。建议按4:6的比例分配：批判占4成，建构占6成。核心命题要在摘要和引言中明确点出，让读者知道你要「颠覆什么、建立什么」。</div>
+</div>
+</div>
+</div>
+
+<div id="view-类型归纳" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#FAECE7;color:#712B13">类型归纳型</div>
+  <div><div class="detail-title">分类整序，提炼规律</div><div class="detail-subtitle">适用场景：面对大量案例、规则或制度时，归纳出可操作的分析框架</div></div>
+</div>
+
+<div class="section-label">触发信号</div>
+<div class="trigger-list">
+  <span class="trigger-pill">该领域案例/规则繁杂，缺乏整体把握</span>
+  <span class="trigger-pill">实践中同类问题处理不一致</span>
+  <span class="trigger-pill">立法层面有原则但缺乏具体操作规则</span>
+  <span class="trigger-pill">比较法研究需要系统化整理</span>
+</div>
+
+<div class="section-label">论证模板</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#FAECE7;color:#712B13">1</div>
+    <div class="step-content"><div class="step-title">划定研究对象的边界</div><div class="step-desc">界定「什么算作X」（宽泛定义 vs 狭窄定义），明确纳入研究范围的标准。这一步往往被忽视，但决定了后续分类的合理性。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAECE7;color:#712B13">2</div>
+    <div class="step-content"><div class="step-title">提出分类标准（核心贡献）</div><div class="step-desc">选择1-2个关键维度作为分类标准，解释为何这些维度最重要。维度的选择本身就是学术判断，要有说服力。切忌用「其他」作为类别。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAECE7;color:#712B13">3</div>
+    <div class="step-content"><div class="step-title">逐类描述与分析</div><div class="step-desc">每类都要给出：定义特征 → 典型案例/规则 → 内在逻辑 → 与其他类型的边界。篇幅可以不均等，复杂的类型多写。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAECE7;color:#712B13">4</div>
+    <div class="step-content"><div class="step-title">跨类型比较与规律提炼</div><div class="step-desc">分类完成后，指出各类型之间的共性规律和关键差异，这才是归纳的「升华」。不能只是分类，要有「分类之后的发现」。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAECE7;color:#712B13">5</div>
+    <div class="step-content"><div class="step-title">框架的应用：解决疑难</div><div class="step-desc">用建立的分类框架处理若干疑难案例，证明框架的操作性。「按本文框架，以下争议案例可以如此处理……」</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">行政法上不确定法律概念的具体化</div>
+    <div class="paper-author">王贵松</div>
+    <div class="paper-note">以「司法密度」为核心维度，将不确定概念具体化分为四种类型，每类对应不同的司法审查强度，形成可操作的判断框架。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">认罪认罚从宽制度若干重要问题</div>
+    <div class="paper-author">陈光中</div>
+    <div class="paper-note">将认罪认罚制度中的疑难问题系统分类，按「程序启动—协商—确认—量刑」的流程逐一归纳规则，形成制度操作地图。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">刑事证据制度与认识论</div>
+    <div class="paper-author">陈光中</div>
+    <div class="paper-note">将证据认识论分为三种立场（误区论/法律真实论/相对真实论），逐一分析其前提与缺陷，再提出自己的「客观真实」框架。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">政府信息公开法律制度研究</div>
+    <div class="paper-author">应松年</div>
+    <div class="paper-note">按「主体—客体—程序—救济」四维度归纳政府信息公开的制度要素，为立法设计提供系统框架，是典型的制度归纳型写法。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#993C1D;background:#FAECE7">
+  <div style="font-size:12px;color:#712B13;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>分类标准要「相互排斥、完全穷尽」（MECE原则）。最常见的失误是分类标准不统一——A类按功能分，B类按主体分，C类按后果分。另外，分类数量以3-5类为宜，太少说明没有细分，太多说明标准有问题。</div>
+</div>
+</div>
+</div>
+
+<div id="view-制度演化" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#FAEEDA;color:#633806">制度演化型</div>
+  <div><div class="detail-title">追踪变迁，把握趋势</div><div class="detail-subtitle">适用场景：制度已发生重大变迁，需要解释变迁逻辑并展望走向</div></div>
+</div>
+
+<div class="section-label">触发信号</div>
+<div class="trigger-list">
+  <span class="trigger-pill">重大立法改革刚刚发生</span>
+  <span class="trigger-pill">司法实践与制度文本出现明显偏差</span>
+  <span class="trigger-pill">制度演变背后的逻辑尚未被理论化</span>
+  <span class="trigger-pill">学界对改革方向存在争议</span>
+</div>
+
+<div class="section-label">论证模板</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#FAEEDA;color:#633806">1</div>
+    <div class="step-content"><div class="step-title">描述制度现状与变迁起点</div><div class="step-desc">说明「制度从哪里出发」——既有制度的核心特征、运作逻辑与存在的问题。这是变迁叙事的「原点」。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAEEDA;color:#633806">2</div>
+    <div class="step-content"><div class="step-title">分析变迁的驱动力</div><div class="step-desc">变迁不是偶然的。要识别驱动变迁的力量：社会压力、政治决断、司法推动、比较法借鉴，还是理论批判？这一步决定论文的解释深度。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAEEDA;color:#633806">3</div>
+    <div class="step-content"><div class="step-title">梳理变迁的阶段与路径</div><div class="step-desc">将演化历程分为若干阶段，描述每阶段的标志性事件和制度特征。注意不是「编年史」，而是要揭示阶段之间的内在逻辑关联。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAEEDA;color:#633806">4</div>
+    <div class="step-content"><div class="step-title">评价：变迁得失与未竟之处</div><div class="step-desc">对已经发生的变迁作出规范性评价：哪些方向是对的，哪些问题尚未解决，哪些改革走偏了。这一步从历史叙述转向规范判断。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FAEEDA;color:#633806">5</div>
+    <div class="step-content"><div class="step-title">展望：制度的应然方向</div><div class="step-desc">提出制度完善的具体建议。建议要有可操作性，不能停留在「应当加强」「需要完善」等空话层面。</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">我国监察体制改革若干问题</div>
+    <div class="paper-author">陈光中</div>
+    <div class="paper-note">以监察体制改革为轴，分析从纪检到监委的演化动因（反腐需要+制度整合），评价现有改革成就，指出刑事程序衔接的未竟问题。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">关于能动司法与大调解</div>
+    <div class="paper-author">苏力</div>
+    <div class="paper-note">追踪能动司法从口号到实践的演化，分析其社会背景与制度逻辑，既肯定其现实合理性，又指出其对司法独立的潜在威胁。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">刑事和解初探</div>
+    <div class="paper-author">陈光中</div>
+    <div class="paper-note">梳理刑事和解从地方实践到制度化的演化轨迹，在「罪刑法定」与「修复正义」的张力中寻找制度正当性，提出立法建议。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">中国宪法中的不成文宪法</div>
+    <div class="paper-author">强世功</div>
+    <div class="paper-note">追踪党的领导这一「不成文宪法」在历次宪法修改中的演化，揭示成文文本与政治实践之间的张力与协调机制。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#854F0B;background:#FAEEDA">
+  <div style="font-size:12px;color:#633806;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>制度演化型论文最容易写成「制度介绍+问题清单」，缺乏真正的演化分析。关键是第2步——要有解释性框架，说清「制度为什么这样演化」，而不只是「制度演化成了什么样」。历史叙述要服从解释目的，不能变成流水账。</div>
+</div>
+</div>
+</div>
+
+<div id="view-判例线索" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#FBEAF0;color:#72243E">判例线索型</div>
+  <div><div class="detail-title">以案说法，以法解案</div><div class="detail-subtitle">适用场景：具体案例引发重大理论争议，或需要从案例中提炼一般规则</div></div>
+</div>
+
+<div class="section-label">触发信号</div>
+<div class="trigger-list">
+  <span class="trigger-pill">某个案例引发广泛争议或社会关注</span>
+  <span class="trigger-pill">司法判决与理论逻辑明显背离</span>
+  <span class="trigger-pill">案例中蕴含未被发掘的理论资源</span>
+  <span class="trigger-pill">需要从个案归纳出普遍适用的规则</span>
+</div>
+
+<div class="section-label">论证模板</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#FBEAF0;color:#72243E">1</div>
+    <div class="step-content"><div class="step-title">选案与呈现案情</div><div class="step-desc">选择具有代表性或争议性的案例，简洁呈现案情，聚焦与研究问题相关的法律争点。不需要描述所有细节，只需描述与论文论证相关的部分。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FBEAF0;color:#72243E">2</div>
+    <div class="step-content"><div class="step-title">点出「理论张力」</div><div class="step-desc">说明这个案例为什么在理论上有趣——它与哪些既有规则或理论发生了冲突，或者它在哪个地方超出了现有框架的解释能力。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FBEAF0;color:#72243E">3</div>
+    <div class="step-content"><div class="step-title">深入分析：案例背后的法理</div><div class="step-desc">从多角度分析案例：文义解释、目的解释、比较法、法理逻辑。每个分析角度都要清晰表达其对「如何裁判」的影响。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FBEAF0;color:#72243E">4</div>
+    <div class="step-content"><div class="step-title">从个案提炼一般规则</div><div class="step-desc">这是论文的核心贡献：从具体案例归纳出可以适用于同类案件的一般规则或判断标准。「一般而言，当……时，应当……」</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#FBEAF0;color:#72243E">5</div>
+    <div class="step-content"><div class="step-title">规则检验：适用于其他案例</div><div class="step-desc">将提炼出的规则适用于其他类似案例，验证其普遍适用性，或指出其例外情形与适用边界。</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">解释的难题</div>
+    <div class="paper-author">苏力</div>
+    <div class="paper-note">以若干解释难题为线索，追问各种文本解释方法（文义/目的/历史）在疑难情形下的适用边界，从个案困境提炼法律解释的元规则。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">论公序良俗原则的司法适用</div>
+    <div class="paper-author">李双元</div>
+    <div class="paper-note">以大量案例为样本，归纳公序良俗原则在不同案件类型中的适用规律，从判例群中提炼类型化操作规则，解决实践中的适用混乱。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">宽严相济刑事政策与量刑情节</div>
+    <div class="paper-author">高铭暄</div>
+    <div class="paper-note">以具体量刑案例为检验场，审视宽严相济政策的司法落地，从判例实践中提炼酌定量刑情节的适用标准，兼顾个案正义与一般预防。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#993556;background:#FBEAF0">
+  <div style="font-size:12px;color:#72243E;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>判例线索型论文的陷阱是「就案论案」——分析完这个案就结束了，没有提炼出一般规则。从个案到一般规则的「跃升」才是论文的价值所在。另外，案例选择要有代表性，最好能覆盖不同法院、不同时期，避免「孤证」。</div>
+</div>
+</div>
+</div>
+
+<div id="view-技艺升级" style="display:none">
+<div class="detail-panel">
+<div class="detail-header">
+  <div class="detail-tag" style="background:#E6F1FB;color:#0C447C">技艺升级型</div>
+  <div><div class="detail-title">方法批判，工具精进</div><div class="detail-subtitle">适用场景：现有法律操作方法粗糙、不一致，需要建立更精细的操作规则</div></div>
+</div>
+
+<div class="section-label">触发信号</div>
+<div class="trigger-list">
+  <span class="trigger-pill">同一方法在不同案件中被以不同方式使用</span>
+  <span class="trigger-pill">法官/学者对某种方法的理解存在根本分歧</span>
+  <span class="trigger-pill">域外成熟方法移植后出现变形走样</span>
+  <span class="trigger-pill">「原则」有了，但「如何操作」仍不清楚</span>
+</div>
+
+<div class="section-label">论证模板</div>
+<div class="template-box">
+  <div class="template-step">
+    <div class="step-num" style="background:#E6F1FB;color:#0C447C">1</div>
+    <div class="step-content"><div class="step-title">呈现操作层面的混乱</div><div class="step-desc">通过案例或学术争论，展示该方法在实践中被以不一致的方式使用，说明混乱的后果（判决不可预期、论证不透明等）。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E6F1FB;color:#0C447C">2</div>
+    <div class="step-content"><div class="step-title">诊断：混乱的方法论根源</div><div class="step-desc">找出造成混乱的深层原因——是方法本身的模糊性，还是使用者对其前提的误解，还是方法被不当扩张适用。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E6F1FB;color:#0C447C">3</div>
+    <div class="step-content"><div class="step-title">确立方法的正确理解</div><div class="step-desc">回到方法的理论渊源和规范基础，澄清其正确含义、适用前提和边界条件。比较法资源在这里最有用。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E6F1FB;color:#0C447C">4</div>
+    <div class="step-content"><div class="step-title">建立操作规则（精细化）</div><div class="step-desc">提出更精细的适用步骤或判断标准。核心是「操作性」——读者读完后知道「在具体案件中，应该按什么顺序做什么判断」。</div></div>
+  </div>
+  <div class="template-step">
+    <div class="step-num" style="background:#E6F1FB;color:#0C447C">5</div>
+    <div class="step-content"><div class="step-title">以案例验证新操作规则</div><div class="step-desc">将精细化的操作规则适用于此前的疑难案例，展示新规则的解释力和可操作性，同时指出其局限。</div></div>
+  </div>
+</div>
+
+<div class="section-label">代表论文解析</div>
+<div class="papers-grid">
+  <div class="paper-card">
+    <div class="paper-name">两种"宪法解释"的概念分野与合宪性解释</div>
+    <div class="paper-author">黄明涛</div>
+    <div class="paper-note">厘清「宪法解释」与「合宪性解释」两种方法的适用条件与操作步骤，建立可区分的判断标准，解决实践中的方法混用问题。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">基本权利的受益权功能与给付义务</div>
+    <div class="paper-author">张翔</div>
+    <div class="paper-note">精细化「国家给付义务」的司法审查方法：从「有无义务」到「义务的边界」再到「审查密度」，建立三步操作框架，比传统二分法更精细。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">我国国家权力配置原则的功能主义解释</div>
+    <div class="paper-author">张翔</div>
+    <div class="paper-note">将「功能主义」引入权力配置分析，建立「功能适当性」审查标准，替代传统的形式主义权力划分，提升宪法解释的操作精度。</div>
+  </div>
+  <div class="paper-card">
+    <div class="paper-name">预防性刑法观及其教义学思考</div>
+    <div class="paper-author">高铭暄</div>
+    <div class="paper-note">针对预防性刑法扩张的趋势，精细化「预防必要性」的判断方法，建立区分正当预防与过度预防的操作标准，升级刑法教义学工具。</div>
+  </div>
+</div>
+
+<div class="hint-box" style="border-color:#185FA5;background:#E6F1FB">
+  <div style="font-size:12px;color:#0C447C;line-height:1.7"><strong style="font-weight:500">写作提示：</strong>技艺升级型论文的价值在于「精细化」，最忌讳停留在「应当重视X方法」的倡导层面。第4步的操作规则要有层次感——最好是「如果…则…，但如果…则…」的判断树形式，而不是一个笼统的原则。论文完成时，读者应该能拿着你的规则去处理具体案件。</div>
+</div>
+</div>
+</div>
+
+<script>
+function switchTab(name, btn, card) {
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('[id^="view-"]').forEach(v=>v.style.display='none');
+  if(name==='overview'){
+    document.getElementById('view-overview').style.display='';
+    if(btn) btn.classList.add('active');
+    else document.querySelector('.tab').classList.add('active');
+  } else {
+    var el=document.getElementById('view-'+name);
+    if(el) el.style.display='';
+    document.querySelectorAll('.tab').forEach(t=>{
+      if(t.textContent.includes(name)) t.classList.add('active');
+    });
+  }
+}
+</script>

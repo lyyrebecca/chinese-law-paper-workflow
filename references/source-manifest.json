@@ -1,0 +1,1806 @@
+{
+  "snapshot_date": "2026-10-22",
+  "scope": "Sanitized distributed reference files; not byte-identical original snapshots. Copyright notices preserved.",
+  "files": [
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "CHANGELOG.md",
+      "bundled_path": "references/source-library/S01/CHANGELOG.md",
+      "bytes": 917,
+      "sha256": "9403ad5744dd65594a274d9c7e47306fce854e85a796dd94999bf9dd467baa0b"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "CONTRIBUTING.md",
+      "bundled_path": "references/source-library/S01/CONTRIBUTING.md",
+      "bytes": 1560,
+      "sha256": "0158ffdbd5a759ffd8c6a3f058c7e4374dc1f88d560131e9dc7458ea6b7a54d8"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "LICENSE",
+      "bundled_path": "references/source-library/S01/LICENSE",
+      "bytes": 1072,
+      "sha256": "d97a9587e3ed3d3e6f481b37d5e3b232f0c9662126cef4855dc47429266594be"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S01/ORIGINAL_SKILL.md",
+      "bytes": 21624,
+      "sha256": "0ebd7a02b193fa2edc25d8e3ef5cec08c302616499f0b3472631dad965f9ba39"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S01/README.md",
+      "bytes": 678,
+      "sha256": "bdac43e0f3d655d43bfd8e083ab149199e188a785a8e75584d082f3f151c689c"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "ROADMAP.md",
+      "bundled_path": "references/source-library/S01/ROADMAP.md",
+      "bytes": 1496,
+      "sha256": "1673599602df2dbc901afb3382c17470faa5c2c212cf8ec48e3198e18947c6ca"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "examples/citation-check-demo.md",
+      "bundled_path": "references/source-library/S01/examples/citation-check-demo.md",
+      "bytes": 2047,
+      "sha256": "0028026daead450c35db15b247005d9c397c17bc0463604131005af95da9b868"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "examples/cssci-review-demo.md",
+      "bundled_path": "references/source-library/S01/examples/cssci-review-demo.md",
+      "bytes": 2293,
+      "sha256": "bde74cee30a515d34182064f146d1cd549863c21dd2d92928007b31cae23d180"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "examples/pipl-article-workflow.md",
+      "bundled_path": "references/source-library/S01/examples/pipl-article-workflow.md",
+      "bytes": 2935,
+      "sha256": "c04ab3eb70f5e75f4834f53bb62c2e98784debe612eae8de8ec108cbd9ce93fa"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/README.md",
+      "bundled_path": "references/source-library/S01/prompts/README.md",
+      "bytes": 1538,
+      "sha256": "e991629ae30631bbc85721f619125553998d3298891cb0ddd305b2ac67a5d31b"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/citation-and-footnotes.md",
+      "bundled_path": "references/source-library/S01/prompts/citation-and-footnotes.md",
+      "bytes": 2038,
+      "sha256": "26ed1b256b37e79f5198b25a3184bc26f449b2e3ebba3534487f531bd5301318"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/de-ai-polishing.md",
+      "bundled_path": "references/source-library/S01/prompts/de-ai-polishing.md",
+      "bytes": 2093,
+      "sha256": "e2c38ef1f66b68cf2a2064ca213e5d47623572dd88cac661f69a5c0300267170"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/legal-verification.md",
+      "bundled_path": "references/source-library/S01/prompts/legal-verification.md",
+      "bytes": 2355,
+      "sha256": "eb9f38a197e312f56acb9b4930b1a22dbe33d84104cc0088d0c28b0ef647c7d7"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/literature-review.md",
+      "bundled_path": "references/source-library/S01/prompts/literature-review.md",
+      "bytes": 2212,
+      "sha256": "de39ff223eaeae6e3fa3793410db6b9e33f9ff85e3d042f196d63541c7273e67"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/reviewer-mode.md",
+      "bundled_path": "references/source-library/S01/prompts/reviewer-mode.md",
+      "bytes": 2175,
+      "sha256": "6f8e309cc53b86730b540e182584d9eb74e262d8c02070950372258827df34d4"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/thesis-defense.md",
+      "bundled_path": "references/source-library/S01/prompts/thesis-defense.md",
+      "bytes": 1937,
+      "sha256": "6b6c7cee620c9b129f48432a85735d8cb7a040ef4ffdee58f86c57f159eb79bc"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "prompts/topic-selection.md",
+      "bundled_path": "references/source-library/S01/prompts/topic-selection.md",
+      "bytes": 2346,
+      "sha256": "599694ce55ae782c71e18a888731e37ce1857e21a96740557628a48233fafe3f"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/checklists.md",
+      "bundled_path": "references/source-library/S01/references/checklists.md",
+      "bytes": 9089,
+      "sha256": "b7f1c9006e208affb45d8ef2814d3a0ce509ad5d1270b9f516d9c489847c3d8d"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/citation-converter.py",
+      "bundled_path": "references/source-library/S01/references/citation-converter.py",
+      "bytes": 12111,
+      "sha256": "4d89486ed1bff875d8d74c9634b9913f2d5b2180d83457884a3baeb4d796a9e2"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/citation-workflow.md",
+      "bundled_path": "references/source-library/S01/references/citation-workflow.md",
+      "bytes": 9699,
+      "sha256": "da1a2d58910ee78fba8cd7cb044ca80bdd9660d85c13c722663effadea2b8d32"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/de-ai-patterns.md",
+      "bundled_path": "references/source-library/S01/references/de-ai-patterns.md",
+      "bytes": 18635,
+      "sha256": "5b549d4ecca4a72ac6e62312c2ae9659c367a16cd906e0d1611e8a4e182de5ec"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/docx-workflow.md",
+      "bundled_path": "references/source-library/S01/references/docx-workflow.md",
+      "bytes": 32519,
+      "sha256": "967bf39e44c222572553b036955a146177c4776d50532d0764fca6fe82d23a8f"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/english-writing-guide.md",
+      "bundled_path": "references/source-library/S01/references/english-writing-guide.md",
+      "bytes": 13034,
+      "sha256": "4fa8498e1eed517709dae67ba603781c36094639bcda8bfbd619ab3c07dd0f67"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/journal-selector.md",
+      "bundled_path": "references/source-library/S01/references/journal-selector.md",
+      "bytes": 20581,
+      "sha256": "866198b14297a788b9f7a0572ba5bd948171439268404bc8c6831fac2e065220"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/subdomain-templates.md",
+      "bundled_path": "references/source-library/S01/references/subdomain-templates.md",
+      "bytes": 42957,
+      "sha256": "5939a0b84fa4db1427e714467b60c487b338742da586ce51ac7d151593bb784a"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/verification-guide.md",
+      "bundled_path": "references/source-library/S01/references/verification-guide.md",
+      "bytes": 7274,
+      "sha256": "a00b3828da12e20c4d088afcc6505d51ed32401bf86150e976df93e61566fe68"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "references/writing-guide.md",
+      "bundled_path": "references/source-library/S01/references/writing-guide.md",
+      "bytes": 10388,
+      "sha256": "2ab26a6c985d8506685a4222cdf6968b71e2ef549a8d1f3c984f78968c6a75bb"
+    },
+    {
+      "source_id": "S01",
+      "source_skill": "law-paper-writing",
+      "source_relative_path": "tests/test_citation_converter.py",
+      "bundled_path": "references/source-library/S01/tests/test_citation_converter.py",
+      "bytes": 2572,
+      "sha256": "54936c2a6d5043f7049399adc1c3e309bb6a6e5070142f5cf07ee63607d6aaa3"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "CHANGELOG.md",
+      "bundled_path": "references/source-library/S02/CHANGELOG.md",
+      "bytes": 8681,
+      "sha256": "8227ba5b91abebbc8d3309e684b6ca2d042a29cfbaf4ffa657a95ea12b3a1576"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "LICENSE",
+      "bundled_path": "references/source-library/S02/LICENSE",
+      "bytes": 1071,
+      "sha256": "1319ac5000aabd27e343a511979972caafe06f1735a6e5412d0ede9e49d092e7"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S02/ORIGINAL_SKILL.md",
+      "bytes": 11034,
+      "sha256": "0989675f5548ea2323fa8a121bb5dd500a01e7692ac259c11d1f203400e7819e"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S02/README.md",
+      "bytes": 678,
+      "sha256": "1e04ccae734a9269e3cdf044c9d780259d4019ed8b3eaefbb0252a50a6b25c37"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/examples/abstract-examples.md",
+      "bundled_path": "references/source-library/S02/assets/examples/abstract-examples.md",
+      "bytes": 1904,
+      "sha256": "0e3b1fbfd89266c78e98729c0887fb1f9887c618ba779753ad35c5e5b0b9bcaa"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/examples/legal-prose-examples.md",
+      "bundled_path": "references/source-library/S02/assets/examples/legal-prose-examples.md",
+      "bytes": 3385,
+      "sha256": "16abbbb1eccb5c55040c81aeee7c28fd7df4d93d46ce87253eb8f0a9e8499aa3"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/citation-audit.md",
+      "bundled_path": "references/source-library/S02/assets/templates/citation-audit.md",
+      "bytes": 1299,
+      "sha256": "d19ed0ece02e776353057ca35738fd3076ced99ecdb2093bd7763cf528eb18bf"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/claim-evidence-matrix.md",
+      "bundled_path": "references/source-library/S02/assets/templates/claim-evidence-matrix.md",
+      "bytes": 1097,
+      "sha256": "ecbed242028cc6eb63804c980728193eb47d18b09a2e4f8990114b4590883133"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/journal-profile.md",
+      "bundled_path": "references/source-library/S02/assets/templates/journal-profile.md",
+      "bytes": 1272,
+      "sha256": "80ae92c7e9dd0eb8247942d489311da5c7489039e40b73ae33dbc0be7296fce5"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/paper-project-brief.md",
+      "bundled_path": "references/source-library/S02/assets/templates/paper-project-brief.md",
+      "bytes": 847,
+      "sha256": "0cda918c8b7256e4ecf9dac9b1b851e64d1a1499dcbefacd35fe0e1d88c76f97"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/revision-response.md",
+      "bundled_path": "references/source-library/S02/assets/templates/revision-response.md",
+      "bytes": 1081,
+      "sha256": "7165a8882150daac7905b61aade8ef97215a6fc2e1b8228ddf1260c0c539192a"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/source-register.md",
+      "bundled_path": "references/source-library/S02/assets/templates/source-register.md",
+      "bytes": 437,
+      "sha256": "7247ee6ac6f83dbdc29612fa484e427fbab16f46d57b7fbb8bab2656d5a55e24"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "assets/templates/submission-checklist.md",
+      "bundled_path": "references/source-library/S02/assets/templates/submission-checklist.md",
+      "bytes": 576,
+      "sha256": "af70875e8239b92bf8fbdac9b2bcc6687d60d310023c0e7f42e4557560e82bf4"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/2026-09-09-review.md",
+      "bundled_path": "references/source-library/S02/evals/2026-09-09-review.md",
+      "bytes": 7221,
+      "sha256": "a08a875932764f9883c510471dd3bb02cd285246e602b29d831835e040c75841"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/2026-09-18-writing-review.md",
+      "bundled_path": "references/source-library/S02/evals/2026-09-18-writing-review.md",
+      "bytes": 6325,
+      "sha256": "758828912b82fea5773414bc6383c87075d7b3f4166b2a7585d9122de378bf9a"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/argumentation-cases.md",
+      "bundled_path": "references/source-library/S02/evals/argumentation-cases.md",
+      "bytes": 6198,
+      "sha256": "0f59fc961ea493670e5e46f5a979b5f150179c7bdcb1439f088e51f2241df5bd"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/citation-format-cases.md",
+      "bundled_path": "references/source-library/S02/evals/citation-format-cases.md",
+      "bytes": 3951,
+      "sha256": "c10356aa7d11156dac91fcd139b0b4548b84b5e9f554de7d791de397d1ffd8cf"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/generic-fusion-cases.md",
+      "bundled_path": "references/source-library/S02/evals/generic-fusion-cases.md",
+      "bytes": 2242,
+      "sha256": "a429d1135a8a55718b2a35646d58bda5fbcdd48a8b574748d90286b6318ade81"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/pressure-tests.md",
+      "bundled_path": "references/source-library/S02/evals/pressure-tests.md",
+      "bytes": 3387,
+      "sha256": "5b22d2f0dfd74a3d99c351852bd306fe08a1771387698398a88d6aa9f05848ce"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/review-feedback-cases.md",
+      "bundled_path": "references/source-library/S02/evals/review-feedback-cases.md",
+      "bytes": 8460,
+      "sha256": "c67f881810f40e5060ed1b0aa8868222c5ed3d4eda2b27a8392fc774595010a1"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/runs/2026-09-18-writing-smoke.md",
+      "bundled_path": "references/source-library/S02/evals/runs/2026-09-18-writing-smoke.md",
+      "bytes": 10599,
+      "sha256": "a84cbe2b30456072414830be9c5aedb0bf4294f2cd6fbaa0c4a4b820fc284eee"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/writing-evaluation.md",
+      "bundled_path": "references/source-library/S02/evals/writing-evaluation.md",
+      "bytes": 4485,
+      "sha256": "5d8782671b36e816542f797cd89ab9a751b3d3830b157c1fa26b0ef4db7d6256"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "evals/writing-inputs.md",
+      "bundled_path": "references/source-library/S02/evals/writing-inputs.md",
+      "bytes": 3794,
+      "sha256": "5901f22c44689316ada2938fcc87a4991bebb04e9f1e7d58de579df99af00be3"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/argumentation-diagnostics.md",
+      "bundled_path": "references/source-library/S02/references/argumentation-diagnostics.md",
+      "bytes": 15032,
+      "sha256": "3acd77f0179b1b6322946b785b697cfe4f3f442dbccb06c96b7dd13e5b25173e"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/citation-format-foreign.md",
+      "bundled_path": "references/source-library/S02/references/citation-format-foreign.md",
+      "bytes": 23826,
+      "sha256": "67a02a29fff1036f51250669aee18a6a0c7e4a782822cce244b353d2f7b6d779"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/citation-format.md",
+      "bundled_path": "references/source-library/S02/references/citation-format.md",
+      "bytes": 47984,
+      "sha256": "067e839a0e4ab9b09140c46149cb92e01818792636af7cfcbe51b0ceffcbe186"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/citation-integrity.md",
+      "bundled_path": "references/source-library/S02/references/citation-integrity.md",
+      "bytes": 5304,
+      "sha256": "294e7b31c620a0f6df655a4f54fc11abbe944b2b4d49e3f4912576bd8fb7874a"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/evidence-and-legal-validity.md",
+      "bundled_path": "references/source-library/S02/references/evidence-and-legal-validity.md",
+      "bytes": 5663,
+      "sha256": "ad38e4a03eab02857207270d163cd899a75b89ccf70fab08dde06c6dc7c8aeda"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/journal-adaptation.md",
+      "bundled_path": "references/source-library/S02/references/journal-adaptation.md",
+      "bytes": 8274,
+      "sha256": "0dfc9763734febd484c4573d88462ec455e614f24693eb0586ed3677eb805370"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/legal-prose.md",
+      "bundled_path": "references/source-library/S02/references/legal-prose.md",
+      "bytes": 6264,
+      "sha256": "0d5f4e46470777dce60121eed609b86eafa0321eeba5151fb8dc32095ca1d398"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/obsidian-hermes-workflow.md",
+      "bundled_path": "references/source-library/S02/references/obsidian-hermes-workflow.md",
+      "bytes": 2476,
+      "sha256": "25847e585954034ec0575467f393b60adb58c2196be76840def44c0ae4444c4f"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/requirement-decomposition.md",
+      "bundled_path": "references/source-library/S02/references/requirement-decomposition.md",
+      "bytes": 2204,
+      "sha256": "ed7f681c1375f3e2bd9dcb96d41a37df853674a705e3cd2f665f6595e3a8da94"
+    },
+    {
+      "source_id": "S02",
+      "source_skill": "law-paper-writing-skill",
+      "source_relative_path": "references/workflow.md",
+      "bundled_path": "references/source-library/S02/references/workflow.md",
+      "bytes": 5080,
+      "sha256": "0ac02f737b6339d44ea6569f49137ed49401089e8d36b7727e2a62d68e451e6c"
+    },
+    {
+      "source_id": "S03",
+      "source_skill": "Law-Thesis-Template-Library",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S03/ORIGINAL_SKILL.md",
+      "bytes": 19520,
+      "sha256": "a953bf08c7ed1f3bdd6cad8488f027797e91ef46f963ccbbca7b12761a95f484"
+    },
+    {
+      "source_id": "S03",
+      "source_skill": "Law-Thesis-Template-Library",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S03/README.md",
+      "bytes": 678,
+      "sha256": "036da358283eaa38a80d7495bfdae651bfd0f965143248e90ac1bdfc7797b7bd"
+    },
+    {
+      "source_id": "S03",
+      "source_skill": "Law-Thesis-Template-Library",
+      "source_relative_path": "legal_paper_template_library.html",
+      "bundled_path": "references/source-library/S03/legal_paper_template_library.html",
+      "bytes": 37239,
+      "sha256": "93a6da0004d91cdd4e4d48cbf93d7f77cd383ea2df60d8f6965498e0004aeabb"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S04/ORIGINAL_SKILL.md",
+      "bytes": 29235,
+      "sha256": "db35544714e115addd6e83587fc9651aa43208d873fdca4e0382fc4e98565dbf"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S04/README.md",
+      "bytes": 678,
+      "sha256": "5f9a71ff97f11b1a415c48a2a387ceeb7c5792ec52ea7eff363c05715a666bb9"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "adapters/claude-code/hooks.md",
+      "bundled_path": "references/source-library/S04/adapters/claude-code/hooks.md",
+      "bytes": 1305,
+      "sha256": "e97f8aff928f9963bacbced47de41b867d48df99309a553cbfdb06e1a9faf744"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "adapters/claude-code/skill-config.yaml",
+      "bundled_path": "references/source-library/S04/adapters/claude-code/skill-config.yaml",
+      "bytes": 1333,
+      "sha256": "d66c0e6a8518e0ecf1f298285280edae66a80c56173034b004f17d8188a3f5c6"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "adapters/hermes/learning-loop.md",
+      "bundled_path": "references/source-library/S04/adapters/hermes/learning-loop.md",
+      "bytes": 5026,
+      "sha256": "c94180adcec69a7f724f262e85991a8dbdff664914621efb9133717485c191b6"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "adapters/hermes/manifest.json",
+      "bundled_path": "references/source-library/S04/adapters/hermes/manifest.json",
+      "bytes": 499,
+      "sha256": "eed91bdb2c0ff588f1369d69d89026056abaec0fb0893179c4acd16e6a1be1ed"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "adapters/hermes/subagent-roles.md",
+      "bundled_path": "references/source-library/S04/adapters/hermes/subagent-roles.md",
+      "bytes": 9508,
+      "sha256": "bbaeea13f119c65334b60296c0f6f713585d97163c64877e4b0987707cf9a09d"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/academic-expressions.md",
+      "bundled_path": "references/source-library/S04/references/academic-expressions.md",
+      "bytes": 8777,
+      "sha256": "0f3c7b78b278b5e1435d01d17d0f770e405432d7c6c36d72b5eb6a5c973b87a2"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/collaboration-patterns.md",
+      "bundled_path": "references/source-library/S04/references/collaboration-patterns.md",
+      "bytes": 10594,
+      "sha256": "8a1d31a12039619bb788477f28e65e9963e8227abe083d00c86b51e4807c4ae5"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/common-mistakes.md",
+      "bundled_path": "references/source-library/S04/references/common-mistakes.md",
+      "bytes": 18463,
+      "sha256": "096713a3471ed85d84d748b164357e1f20f0a353dab96edfb0b61e8a57365827"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/critical-thinking.md",
+      "bundled_path": "references/source-library/S04/references/critical-thinking.md",
+      "bytes": 12642,
+      "sha256": "81be91b456f657e4bb5ed0f0275093b0e894ba5c4b999cc6d87e9f0c0fecdd91"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/decision-tree.md",
+      "bundled_path": "references/source-library/S04/references/decision-tree.md",
+      "bytes": 5085,
+      "sha256": "39b401f445a4e75d976b8bf7e2e5e33f45519886172d862a8a5e1cd08bf6be27"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/investigation-methods.md",
+      "bundled_path": "references/source-library/S04/references/investigation-methods.md",
+      "bytes": 9079,
+      "sha256": "d5ad3e841eed6c90bd554334fec372b4e3b43a92090e09659420dbf6b6a3aca5"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/legal-argumentation.md",
+      "bundled_path": "references/source-library/S04/references/legal-argumentation.md",
+      "bytes": 18946,
+      "sha256": "d1c5caff1afbec6fe70c8ef4080e697705a2131526292cbfc41e25263b4f86bb"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/legal-citation.md",
+      "bundled_path": "references/source-library/S04/references/legal-citation.md",
+      "bytes": 15971,
+      "sha256": "cd9f7f5a00a0152fa811f5745023a1944676845be49a1b0c37fddaf5ca22fb8e"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/legal-ethics.md",
+      "bundled_path": "references/source-library/S04/references/legal-ethics.md",
+      "bytes": 7105,
+      "sha256": "49fc7d11c67d9fea56f2c99d0d4ce21aa59afae95c22ced2545997af921c9eb7"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/legal-writing.md",
+      "bundled_path": "references/source-library/S04/references/legal-writing.md",
+      "bytes": 19213,
+      "sha256": "51a12f8a164ee421bfd14c5f4450fde787560f6d5d0ff98d847081aded67dacb"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/literature-search.md",
+      "bundled_path": "references/source-library/S04/references/literature-search.md",
+      "bytes": 16343,
+      "sha256": "a9997d187474e54885f76dab7be054056fb333f00b42245de458ef590a370063"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/model-papers.md",
+      "bundled_path": "references/source-library/S04/references/model-papers.md",
+      "bytes": 9443,
+      "sha256": "d5579543cc363e68ee4157b0afd4930e5f4ea94046deb6efccacb64667984833"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/stage-checklists.md",
+      "bundled_path": "references/source-library/S04/references/stage-checklists.md",
+      "bytes": 10379,
+      "sha256": "af75d83d1f74b0dacb41d47c74c3cafd32429ea983729edbdcdc8ae9bcbfeb47"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/theory-frameworks.md",
+      "bundled_path": "references/source-library/S04/references/theory-frameworks.md",
+      "bytes": 9765,
+      "sha256": "11b6bf108655c8bd4c35d2863636755fc76f2d8da79b418646b744fd263da7e6"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "references/topic-selection.md",
+      "bundled_path": "references/source-library/S04/references/topic-selection.md",
+      "bytes": 17584,
+      "sha256": "234071305ee6b516b2e63038196cbbb306726400111f0f8e298ad1cbd4884370"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "scripts/check_stage.py",
+      "bundled_path": "references/source-library/S04/scripts/check_stage.py",
+      "bytes": 14011,
+      "sha256": "40667328354355cb52ce5b03f0e576854eb46faf98b5b4f23e00511f62a7ef04"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "scripts/review_legal.py",
+      "bundled_path": "references/source-library/S04/scripts/review_legal.py",
+      "bytes": 29950,
+      "sha256": "b77baa19991044e152f912c835848d072da011a3f412825d071c1050ff756c5a"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "templates/argument-map.md",
+      "bundled_path": "references/source-library/S04/templates/argument-map.md",
+      "bytes": 4132,
+      "sha256": "9dc4d23a9004732bccdf74a86cd3210159accb0ed2f9220abe308f8bdc230c50"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "templates/citation-checklist.md",
+      "bundled_path": "references/source-library/S04/templates/citation-checklist.md",
+      "bytes": 4009,
+      "sha256": "625001b912923a99ddd7c9d0ca94d62d74bc191efb9fdcb3262e28abed510154"
+    },
+    {
+      "source_id": "S04",
+      "source_skill": "lawpaper-skill",
+      "source_relative_path": "templates/paper-outline.md",
+      "bundled_path": "references/source-library/S04/templates/paper-outline.md",
+      "bytes": 6946,
+      "sha256": "f70202b0cdcf0d9f94f7b3a57708e4a65e59ffa38d73d40f18ba5c890de5fbaf"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S05/ORIGINAL_SKILL.md",
+      "bytes": 7915,
+      "sha256": "27ec3f541648172003b7f434455eead4e20e7aa43fe9d67512ed69ed41dcda75"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/cn-legal.md",
+      "bundled_path": "references/source-library/S05/references/cn-legal.md",
+      "bytes": 6508,
+      "sha256": "74a9ada2c3443e16be9c0a3f22b2de88845c27a1ba6c9fc4fe98d70e9451bb81"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/cn-online.md",
+      "bundled_path": "references/source-library/S05/references/cn-online.md",
+      "bytes": 3142,
+      "sha256": "1f8238a5d06178c60382ddcfa1b1644f6ea6bacadd564b62e14f277c515ca0ad"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/cn-print.md",
+      "bundled_path": "references/source-library/S05/references/cn-print.md",
+      "bytes": 6941,
+      "sha256": "e0c394d110ff101fb36e6e903aaf0abcc5870d94c978a052bd70a5168e2e783c"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/cn-unpublished.md",
+      "bundled_path": "references/source-library/S05/references/cn-unpublished.md",
+      "bytes": 2537,
+      "sha256": "f561fc12f25324ba8dff16c2eb6199e585d915ac8042a5542eae4fe3be3d7999"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/core.md",
+      "bundled_path": "references/source-library/S05/references/core.md",
+      "bytes": 4938,
+      "sha256": "72d71671e98f3bd6771ea240d1fa9adf05093d0ab5ac049390993feeedb20cdc"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/en.md",
+      "bundled_path": "references/source-library/S05/references/en.md",
+      "bytes": 6227,
+      "sha256": "07cc7b6962c8174c618a8b1aaa6d6c655359cb6930d1e31f9c835a33db4e617d"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/other-lang.md",
+      "bundled_path": "references/source-library/S05/references/other-lang.md",
+      "bytes": 3952,
+      "sha256": "f857d102bceefd2eef87773236e382e5f72893affab350495a1bf56cafcd7bc1"
+    },
+    {
+      "source_id": "S05",
+      "source_skill": "legal-citation",
+      "source_relative_path": "references/repeat-cite.md",
+      "bundled_path": "references/source-library/S05/references/repeat-cite.md",
+      "bytes": 3300,
+      "sha256": "cf4f0a884489b53abb30d9af6fbc94b46ee3e158d1e4c7f8edd45b383a9447ce"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "LICENSE",
+      "bundled_path": "references/source-library/S06/LICENSE",
+      "bytes": 1070,
+      "sha256": "1b15e6ccb99e92963de13116b181095721091ba44ca6168e5991bc2182adabf1"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "NOTICE.md",
+      "bundled_path": "references/source-library/S06/NOTICE.md",
+      "bytes": 698,
+      "sha256": "6f82796dc0c86109dd51f37cc6001b9cbaa75fcf9b2fa1ff04a05ed41f8bd6e4"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S06/ORIGINAL_SKILL.md",
+      "bytes": 33806,
+      "sha256": "1a91c1ea251cdd2f94be4a55fd6be874cbcc7f7e2caf7eb1cd8050cfe741bc1b"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S06/README.md",
+      "bytes": 678,
+      "sha256": "5708437ed973dd459a548ff1a749e120eedea58a43f40fe4ded017ff71870570"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/README.md",
+      "bundled_path": "references/source-library/S06/data/README.md",
+      "bytes": 2348,
+      "sha256": "fde910f15d130f5f134e47a00d13bac5884ce051e08dd39d47ed52a3b4b57ad2"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/keyword_router_frequency.tsv",
+      "bundled_path": "references/source-library/S06/data/keyword_router_frequency.tsv",
+      "bytes": 70502,
+      "sha256": "3606638cd35a39b124bded4b60f83136615e0c69692e5d2c3ac3e016677370d7"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/lexical_candidates.tsv",
+      "bundled_path": "references/source-library/S06/data/lexical_candidates.tsv",
+      "bytes": 1046781,
+      "sha256": "dd0a04112a9ab6008aca8002b7daf813db833612ab162b85ca08a143e5dde058"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/public_data_manifest.json",
+      "bundled_path": "references/source-library/S06/data/public_data_manifest.json",
+      "bytes": 1679,
+      "sha256": "ea2376ff17709f9f38826eba5e1bb3a6acf5f5269edfbd1aca44449b8785eadc"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/administrative-regulation-public.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/administrative-regulation-public.json",
+      "bytes": 659,
+      "sha256": "72daeb1d31cccd5b1fa30ceb3b604ba81692410452a65b4426bbdf2e88dbfad3"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/civil-commercial-economic.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/civil-commercial-economic.json",
+      "bytes": 643,
+      "sha256": "2a667341963e68b930031dbfc14c3e0ce16887395a9d5da30d1b710e70d7342f"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/constitutional-theory-rights.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/constitutional-theory-rights.json",
+      "bytes": 624,
+      "sha256": "93a09c6ccd6ad45f6e834b5eb9e4f8e2515848c8faacf17113f5a2bc143ef378"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/criminal-procedure-evidence.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/criminal-procedure-evidence.json",
+      "bytes": 671,
+      "sha256": "feed233fb2d544e867008b4a6d7fea8e4b832eec45e3dcd3d5c8ddb22bb3eb5a"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/international-comparative-digital-ip.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/international-comparative-digital-ip.json",
+      "bytes": 674,
+      "sha256": "4ce371eefd28e09cc521f945beb729cb3c18915fbc216c620f751326424469da"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/labor-social-environment-resources.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/labor-social-environment-resources.json",
+      "bytes": 679,
+      "sha256": "d093431a7f97e6616e9b2ba40e116a7c327d72591dabbd60b44edb04de7b949e"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/litigation-arbitration-review.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/litigation-arbitration-review.json",
+      "bytes": 697,
+      "sha256": "03bb283a0c3cee9c250fa5bedc3a2d42ac9db3f4a65b5c7f2b79106b75cc69f9"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/departments/sports-arbitration.json",
+      "bundled_path": "references/source-library/S06/data/routes/departments/sports-arbitration.json",
+      "bytes": 652,
+      "sha256": "dfe52ac4368ed1b6fa1d577572f6ca948511c8c3bd7e9fd735618758906cff28"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/levels/level-1.jsonl",
+      "bundled_path": "references/source-library/S06/data/routes/levels/level-1.jsonl",
+      "bytes": 9887,
+      "sha256": "0e1f606b954b7ca1601688b8caa2201291437669e844a90ce30bdfa7002405bf"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/levels/level-2.jsonl",
+      "bundled_path": "references/source-library/S06/data/routes/levels/level-2.jsonl",
+      "bytes": 18402,
+      "sha256": "fa7eab926bacb84d3ef7ed21b78678e521f5e1865c250d0abcc8b3ff7ca46b78"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/levels/level-3.jsonl",
+      "bundled_path": "references/source-library/S06/data/routes/levels/level-3.jsonl",
+      "bytes": 8515,
+      "sha256": "b0fbb8f152955bcbfea1e38f9b173ef250e80979df86d6228760f13d81070f61"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/case.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/case.json",
+      "bytes": 650,
+      "sha256": "5334126fed40d8e3a8acfb6e682545c3fdc693a21515e7cebfd4d6abf54b086a"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/comparative.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/comparative.json",
+      "bytes": 491,
+      "sha256": "98ccdd0f966039db60760359095b2f9b64798a0ad80a68809cfee8faa415559b"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/critical.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/critical.json",
+      "bytes": 569,
+      "sha256": "46a04f068c6df409993b7e12a1a26398fea75ff967b7f02b1485c1af663c078c"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/doctrinal.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/doctrinal.json",
+      "bytes": 633,
+      "sha256": "f83df3afb5de7ee2b9efc99e2d3044e456355295881c06ec0a2514a4aed5aa32"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/empirical.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/empirical.json",
+      "bytes": 509,
+      "sha256": "88455580fa855442be40b0e9209d51527ff472f6a762ed37d04d06d0e2b69620"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routes/research-types/institutional.json",
+      "bundled_path": "references/source-library/S06/data/routes/research-types/institutional.json",
+      "bytes": 572,
+      "sha256": "6432448f44caf894217ae701a064ea83b7d7e101e4cf6c249c2c09deb6663c50"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/routing_index.json",
+      "bundled_path": "references/source-library/S06/data/routing_index.json",
+      "bytes": 4488,
+      "sha256": "1e19ae526de44d4da8f7a8de6424050a52afe214b175be1c2ea28de07a52385a"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "data/title_patterns.jsonl",
+      "bundled_path": "references/source-library/S06/data/title_patterns.jsonl",
+      "bytes": 18402,
+      "sha256": "fa7eab926bacb84d3ef7ed21b78678e521f5e1865c250d0abcc8b3ff7ca46b78"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "references/ai_language_defense.md",
+      "bundled_path": "references/source-library/S06/references/ai_language_defense.md",
+      "bytes": 10693,
+      "sha256": "657968c2d5bb32ce411f9a3ec2b5f38c8f79d0e2e4c09c86bb07fd23e5b5b35a"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "references/corpus_methodology.md",
+      "bundled_path": "references/source-library/S06/references/corpus_methodology.md",
+      "bytes": 2304,
+      "sha256": "e305a9088ad210e301540ef9d4473c3dfe56b0e0207c5b02e7e293d097ee71f4"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "references/quantitative_model.md",
+      "bundled_path": "references/source-library/S06/references/quantitative_model.md",
+      "bytes": 12682,
+      "sha256": "944d2390412a6b86f3da04b49216a416ef57e2cb2814e16e816d6746c999c045"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "scripts/build_toc_vocabulary.py",
+      "bundled_path": "references/source-library/S06/scripts/build_toc_vocabulary.py",
+      "bytes": 10501,
+      "sha256": "c02a9cc6945ca2c11710163dea365fd8334fa7649432d1c16189de3acaf2e0b1"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "scripts/export_public_data.py",
+      "bundled_path": "references/source-library/S06/scripts/export_public_data.py",
+      "bytes": 8560,
+      "sha256": "747050ab8c161cd44ecb1740ae62959a981daa6db847b7cfd4b4365712ba865e"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "scripts/extract_toc.py",
+      "bundled_path": "references/source-library/S06/scripts/extract_toc.py",
+      "bytes": 18199,
+      "sha256": "625fc33c79b42b938197ba2252450610db8dd3b37ddbd31ea14798b954f1d2e2"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "scripts/validate_structural_edit.py",
+      "bundled_path": "references/source-library/S06/scripts/validate_structural_edit.py",
+      "bytes": 3043,
+      "sha256": "1c22c32d92314c31e47eb54f039c6202fccff35672ea718846a7fdfd0914ed90"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "tests/fixtures/framework_edit_contract.json",
+      "bundled_path": "references/source-library/S06/tests/fixtures/framework_edit_contract.json",
+      "bytes": 5610,
+      "sha256": "10fc0cecb2866945c77611f142e40ac00744e3571faf628bc1fb412ab85c1339"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "tests/fixtures/sample_toc.html",
+      "bundled_path": "references/source-library/S06/tests/fixtures/sample_toc.html",
+      "bytes": 269,
+      "sha256": "a0899cad3d0430040db35708f0d537cde52cedcb6ca384799ee6757e4f9b41f2"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "tests/test_release.py",
+      "bundled_path": "references/source-library/S06/tests/test_release.py",
+      "bytes": 7829,
+      "sha256": "de79a854cb393d6b0ddd7e8c968a126f185f5bf91805b26cfe1973e7116b1be8"
+    },
+    {
+      "source_id": "S06",
+      "source_skill": "legal-paper-framework-humanizer-zh",
+      "source_relative_path": "tests/test_skill_contract.py",
+      "bundled_path": "references/source-library/S06/tests/test_skill_contract.py",
+      "bytes": 4376,
+      "sha256": "2a9427386ebbce2c48bc28fe346dec0fc9edfe8348104cfb048fe24bd5bc935a"
+    },
+    {
+      "source_id": "S07",
+      "source_skill": "legal-writing-style",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S07/ORIGINAL_SKILL.md",
+      "bytes": 18328,
+      "sha256": "9eb65a664ac4474fa4fe6dea8564e2bbb38f170cfa5638d740452c8e56a569ac"
+    },
+    {
+      "source_id": "S07",
+      "source_skill": "legal-writing-style",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S07/README.md",
+      "bytes": 678,
+      "sha256": "435e92553d8d4e99914b88e286738c82d456444b511dc2cf160d785536bdb5d3"
+    },
+    {
+      "source_id": "S07",
+      "source_skill": "legal-writing-style",
+      "source_relative_path": "batch-01.md",
+      "bundled_path": "references/source-library/S07/batch-01.md",
+      "bytes": 10942,
+      "sha256": "2c890365ed570ca2bd25e3ec1a59b472c3eb0c66501f68597eea16da70d2ecfe"
+    },
+    {
+      "source_id": "S07",
+      "source_skill": "legal-writing-style",
+      "source_relative_path": "language-examples.md",
+      "bundled_path": "references/source-library/S07/language-examples.md",
+      "bytes": 21594,
+      "sha256": "1eb50e7701e9b37e8edf1637016c5c279f7b462338b65263baef0254f4a845d4"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "LICENSE",
+      "bundled_path": "references/source-library/S08/LICENSE",
+      "bytes": 10888,
+      "sha256": "b8a231b465db10025d89add63d210db43230b95f7eb086c663d90ec7089b1d3e"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S08/ORIGINAL_SKILL.md",
+      "bytes": 23823,
+      "sha256": "7d764364ccf882671849e4ce185daab4c7d891d066c5994c6f4e2139885aee6a"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/batch-workflow.md",
+      "bundled_path": "references/source-library/S08/references/batch-workflow.md",
+      "bytes": 8924,
+      "sha256": "5817aeb88321b0542e6b6d5fffcba98108c301cf3639bbc159fc658873419876"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/evidence-corpus.md",
+      "bundled_path": "references/source-library/S08/references/evidence-corpus.md",
+      "bytes": 12740,
+      "sha256": "7a2acc75b26678ca7c84e62fc75675d17af93e03a36e8686539563e68cbe6a4a"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/figure-guide.md",
+      "bundled_path": "references/source-library/S08/references/figure-guide.md",
+      "bytes": 5196,
+      "sha256": "00875fad524a224822142318b0ef314d15effadab50f7aae02bdd2069ae81d5e"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/polish-workflow.md",
+      "bundled_path": "references/source-library/S08/references/polish-workflow.md",
+      "bytes": 8015,
+      "sha256": "aa2b5faf3059aac838f11fa042006887a97d5b51d99e997ce255a46890375f0b"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/project-setup.md",
+      "bundled_path": "references/source-library/S08/references/project-setup.md",
+      "bytes": 6498,
+      "sha256": "5f56fd6e62ef74b99e2f55a7185773333ccbbdf0bb7ec6640e1d2b7c8278279c"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/repair-workflow.md",
+      "bundled_path": "references/source-library/S08/references/repair-workflow.md",
+      "bytes": 4774,
+      "sha256": "e1643c34d5ab751aca651a95b57f012f6fbc5fc3855786dac1fe6bbb21a1c5af"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/session-management.md",
+      "bundled_path": "references/source-library/S08/references/session-management.md",
+      "bytes": 3436,
+      "sha256": "829ed013fe7c6cba6f5ff257a9385c836308acf38a821e0b31f15d2509c45ed8"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/thesis-guide.md",
+      "bundled_path": "references/source-library/S08/references/thesis-guide.md",
+      "bytes": 9422,
+      "sha256": "73260c8e320e7775b616d0e363c48aa7101156df2e7cffb8adae27c9b3f97135"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/troubleshooting.md",
+      "bundled_path": "references/source-library/S08/references/troubleshooting.md",
+      "bytes": 8382,
+      "sha256": "cbf9a5fcd38a4f2bb7442b804761de40af75ae5263f0b4d1e2753a96c683c75b"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "references/verification-batch.md",
+      "bundled_path": "references/source-library/S08/references/verification-batch.md",
+      "bytes": 4873,
+      "sha256": "fd257a27deb97cc86a0eb2924c594ce444967fbae43f9fd9f5598864e63b8e9c"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "scripts/generate_figures.py",
+      "bundled_path": "references/source-library/S08/scripts/generate_figures.py",
+      "bytes": 9663,
+      "sha256": "2b22d0fdcbe3eb76369f49b05b3bd1fb31ee1c1422ac70749644b312dbfc269c"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "scripts/generate_stripped_version.py",
+      "bundled_path": "references/source-library/S08/scripts/generate_stripped_version.py",
+      "bytes": 9389,
+      "sha256": "9a51776bd8b560419d3ff15ada42b4fb6e28f9b1ee53a934b515ff29f14485c9"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "scripts/init_project.py",
+      "bundled_path": "references/source-library/S08/scripts/init_project.py",
+      "bytes": 22802,
+      "sha256": "44c012f5500a5075492b8002566ea4f8303c985341661acee4531c4d9a37a8e7"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "scripts/merge_to_word.py",
+      "bundled_path": "references/source-library/S08/scripts/merge_to_word.py",
+      "bytes": 19753,
+      "sha256": "c0e98462782b6b13fd289f5c0e92545899fb6d4edeade1317024b14a3b578af7"
+    },
+    {
+      "source_id": "S08",
+      "source_skill": "monograph-writing",
+      "source_relative_path": "scripts/validate_manuscript.py",
+      "bundled_path": "references/source-library/S08/scripts/validate_manuscript.py",
+      "bytes": 24595,
+      "sha256": "314b1bd78bc81e1005964931211742891657f85b27a6798578f903199163d1ab"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "CREDITS.md",
+      "bundled_path": "references/source-library/S09/CREDITS.md",
+      "bytes": 4239,
+      "sha256": "8d34a7f7859f377ac5bf30834291cbfa83b4c5945893d123408d64dd91dc0655"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "LICENSE",
+      "bundled_path": "references/source-library/S09/LICENSE",
+      "bytes": 1107,
+      "sha256": "bba5b423a8a61193906c114e5620740f4cd74479709fa0684de0fb1a33ab2e8d"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S09/ORIGINAL_SKILL.md",
+      "bytes": 27825,
+      "sha256": "c5c8f598a11ec415e9d86a574fcdfee9f907a39d52ec8912156ef1d7ab697119"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S09/README.md",
+      "bytes": 678,
+      "sha256": "c6ffa72cb26f93e79a48a005a44ba341ee377001584ab63f70d1c47341b515f1"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "assets/01_写作启动包_模板.md",
+      "bundled_path": "references/source-library/S09/assets/01_写作启动包_模板.md",
+      "bytes": 4223,
+      "sha256": "0e2d30905a35b8725a37c00f9c4bca29954baacb01d03c7acbd40367b712a27b"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "assets/02_文献筛选清单_模板.md",
+      "bundled_path": "references/source-library/S09/assets/02_文献筛选清单_模板.md",
+      "bytes": 2558,
+      "sha256": "ff023680b4a790bb4eb82cb6c52fe2012c9d6b1db86cd88d97ae852639261461"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "assets/03_文献精读笔记_模板.md",
+      "bundled_path": "references/source-library/S09/assets/03_文献精读笔记_模板.md",
+      "bytes": 3577,
+      "sha256": "8ba8b1866553a57b1af2b6e37ba98bc604649862108bfc4287e2170cc8e09a47"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "assets/04_审稿意见报告_模板.md",
+      "bundled_path": "references/source-library/S09/assets/04_审稿意见报告_模板.md",
+      "bytes": 3979,
+      "sha256": "6350db6ff1269e27ab516aa9ad499ef1c50c5091d82636ce27042e862f31edae"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "assets/05_论文正文骨架.md",
+      "bundled_path": "references/source-library/S09/assets/05_论文正文骨架.md",
+      "bytes": 2149,
+      "sha256": "3ef07cf689dedc11f02f11bbcb53393a1a9e19bed8a148540b9702ad5f341cf1"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/审稿包示例/审稿任务说明_M1.md",
+      "bundled_path": "references/source-library/S09/examples/审稿包示例/审稿任务说明_M1.md",
+      "bytes": 4347,
+      "sha256": "95c20619bd1903ae8d694a62009700ad20434f0d7cc3d20d928b64f688585a3c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/审稿包示例/审稿稿_M1.md",
+      "bundled_path": "references/source-library/S09/examples/审稿包示例/审稿稿_M1.md",
+      "bytes": 1736,
+      "sha256": "9d4cb6275c0947b3b0e208463a4fc2c7fbbec43d24eb83913b554a87f474b822"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/审稿包示例/示例_审稿任务说明_M1.md",
+      "bundled_path": "references/source-library/S09/examples/审稿包示例/示例_审稿任务说明_M1.md",
+      "bytes": 4347,
+      "sha256": "95c20619bd1903ae8d694a62009700ad20434f0d7cc3d20d928b64f688585a3c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/审稿包示例/示例_审稿稿_M1.md",
+      "bundled_path": "references/source-library/S09/examples/审稿包示例/示例_审稿稿_M1.md",
+      "bytes": 1736,
+      "sha256": "9d4cb6275c0947b3b0e208463a4fc2c7fbbec43d24eb83913b554a87f474b822"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/演示输出.md",
+      "bundled_path": "references/source-library/S09/examples/演示输出.md",
+      "bytes": 8969,
+      "sha256": "b704c5eed4f299e7230746499e9252b90df90ed2446e24bab07b374664c69058"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "examples/示例论文_含错.md",
+      "bundled_path": "references/source-library/S09/examples/示例论文_含错.md",
+      "bytes": 1837,
+      "sha256": "f3bac6ba9f50449aac7ec07ceb5915bb20ab61b81b8ce2be907115b86ed9a5e1"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/00-workflow-overview.md",
+      "bundled_path": "references/source-library/S09/references/00-workflow-overview.md",
+      "bytes": 5368,
+      "sha256": "f7346f85e0d978d92e2b2cfd3e73b9378901b5489a8067856a38e0f5d2902d52"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/01-division-of-labor.md",
+      "bundled_path": "references/source-library/S09/references/01-division-of-labor.md",
+      "bytes": 5112,
+      "sha256": "fae02cb3de7b010308b41740ca0cc7a9a867a7e1b4aa8d24cce0b65f729a716b"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/02-cnki-export-guide.md",
+      "bundled_path": "references/source-library/S09/references/02-cnki-export-guide.md",
+      "bytes": 6537,
+      "sha256": "8485d05b7f7e8fb6acf05a06af4e698b39b8207dc68fd94e5798baa76289521e"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/03-literature-grading.md",
+      "bundled_path": "references/source-library/S09/references/03-literature-grading.md",
+      "bytes": 3236,
+      "sha256": "72cb1f200cc00ab31e934227f36e8bd6911f3597c4482b55cd360b42113bde36"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/04-reading-notes-spec.md",
+      "bundled_path": "references/source-library/S09/references/04-reading-notes-spec.md",
+      "bytes": 5476,
+      "sha256": "c8588ae8afcc3bf449cce876439c678a5e8f1cc66b1cab9c84bcacf5ebe8b484"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/05-writing-discipline.md",
+      "bundled_path": "references/source-library/S09/references/05-writing-discipline.md",
+      "bytes": 7724,
+      "sha256": "32cbeb7df064df33dfb6c5a147c04f25dc6c152e2c113246518de445e40dae3e"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/06-citation-and-validation.md",
+      "bundled_path": "references/source-library/S09/references/06-citation-and-validation.md",
+      "bytes": 6602,
+      "sha256": "d54baed04b72dbb08bb41ab568c378ca034849eacc872c6fdbfe953b369fccf0"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/07-docx-formatting.md",
+      "bundled_path": "references/source-library/S09/references/07-docx-formatting.md",
+      "bytes": 4788,
+      "sha256": "291f55437c17e0374b503e2a7cbb47f98f5824a91a9c48b2fa08bdddfb9fe09c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/08-self-review.md",
+      "bundled_path": "references/source-library/S09/references/08-self-review.md",
+      "bytes": 9787,
+      "sha256": "3ffdecb0966dda6f7fd074d48c610a1ff71c200a328472f73d2e3a5d5b6869aa"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/09-revision-discipline.md",
+      "bundled_path": "references/source-library/S09/references/09-revision-discipline.md",
+      "bytes": 10030,
+      "sha256": "d2dfe1de3b5e58a2a558404ff0d355554b885485eeca24275d2fd9dc2cc10b50"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/10-abstract-and-title.md",
+      "bundled_path": "references/source-library/S09/references/10-abstract-and-title.md",
+      "bytes": 5949,
+      "sha256": "28ed0bd222e78be74d61698f0c68a04c0141fd7e8fce933396501090e149e4c5"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/11-de-ai-patterns.md",
+      "bundled_path": "references/source-library/S09/references/11-de-ai-patterns.md",
+      "bytes": 14673,
+      "sha256": "9159896e68d6d514373c7604e5963d9728eaa3ffc6a03a30d0a29ff9984007ec"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/12-journal-and-submission.md",
+      "bundled_path": "references/source-library/S09/references/12-journal-and-submission.md",
+      "bytes": 8439,
+      "sha256": "921e87774ecb7ba4cc025fbca81d4f2c3fc3c567de67d1d0dbfa07fbb5c5af44"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/13-companion-skills.md",
+      "bundled_path": "references/source-library/S09/references/13-companion-skills.md",
+      "bytes": 7962,
+      "sha256": "2f2afab368ddd24fa0816235014c6df72723fb54ccdfa47e69b06147f05f296c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/14-pdf-to-text.md",
+      "bundled_path": "references/source-library/S09/references/14-pdf-to-text.md",
+      "bytes": 5696,
+      "sha256": "912b3a4c816c669b2957c1872bbba392d5ad1ed0ebccb9a751548648e509cd0f"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/15-human-editing-patterns.md",
+      "bundled_path": "references/source-library/S09/references/15-human-editing-patterns.md",
+      "bytes": 16199,
+      "sha256": "f88e10314f7dcf923f3beb38c8629e6f6edc07166eed4c9763267644ba9125e7"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "references/16-privacy-protection.md",
+      "bundled_path": "references/source-library/S09/references/16-privacy-protection.md",
+      "bytes": 7191,
+      "sha256": "35cbf33af324abf2cb48163ce4e4a3c6bc6a596542720a57b8c22f92f390f672"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/_textio.py",
+      "bundled_path": "references/source-library/S09/scripts/_textio.py",
+      "bytes": 2513,
+      "sha256": "df8d434b1b4e08db8d84499d538956eb743b0a10e2e5de91123fe3215cf71b1e"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/aitrace.py",
+      "bundled_path": "references/source-library/S09/scripts/aitrace.py",
+      "bytes": 20277,
+      "sha256": "1196434f78bb7efe41da1942a92935b305bbf9e0e48eec996611f50fb2500b88"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/check_pii.py",
+      "bundled_path": "references/source-library/S09/scripts/check_pii.py",
+      "bytes": 13169,
+      "sha256": "1f844da6d23243e933b6cba0aac28a46f8961cb8b2ea7ec0d3080f16cef31b8f"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/cnki2gbt.py",
+      "bundled_path": "references/source-library/S09/scripts/cnki2gbt.py",
+      "bytes": 9154,
+      "sha256": "8d22385208f7dca079a3f011b5dd267c610dede88606cffd9c531c3bc11fe71f"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/md2docx.py",
+      "bundled_path": "references/source-library/S09/scripts/md2docx.py",
+      "bytes": 22947,
+      "sha256": "8cea7ee914803a8f7178920d55b858c094899d4aee11e657b0427da9d7c56d1b"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/mk_review_packet.py",
+      "bundled_path": "references/source-library/S09/scripts/mk_review_packet.py",
+      "bytes": 14822,
+      "sha256": "d05c82b58e62262b236393b6866fbd481cb2553e6c6ee2966a98bd9e4ce66597"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/normalize_cn.py",
+      "bundled_path": "references/source-library/S09/scripts/normalize_cn.py",
+      "bytes": 10314,
+      "sha256": "23305d1123d69355997ec758f3f53af842fc22ad7928db97e38f438c27c3212c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/parse_cnki.py",
+      "bundled_path": "references/source-library/S09/scripts/parse_cnki.py",
+      "bytes": 12430,
+      "sha256": "d921f3992888eb8e10d02bdbede2a041649d3e2de3ea51ed07e62f156bd57738"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/pdf2txt.py",
+      "bundled_path": "references/source-library/S09/scripts/pdf2txt.py",
+      "bytes": 10280,
+      "sha256": "3a355af6a48d438ea822e0567472f6cd8fd41eda1a4de3b6d903fe098c039ba5"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/redundancy.py",
+      "bundled_path": "references/source-library/S09/scripts/redundancy.py",
+      "bytes": 17481,
+      "sha256": "047775294c37d98b20d8c5dea7064aaf5e580f6322bd5c98f968dce84ff88b70"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/renumber.py",
+      "bundled_path": "references/source-library/S09/scripts/renumber.py",
+      "bytes": 9817,
+      "sha256": "24ff750f0237f657005e353488264667209647937b0d155e17dcd05e47a9840c"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "scripts/validate.py",
+      "bundled_path": "references/source-library/S09/scripts/validate.py",
+      "bytes": 10706,
+      "sha256": "daf82ace0dfd270567201484bf58928990a51a2484522b1bc90e21a60b85e635"
+    },
+    {
+      "source_id": "S09",
+      "source_skill": "literature-relay",
+      "source_relative_path": "workbuddy.json",
+      "bundled_path": "references/source-library/S09/workbuddy.json",
+      "bytes": 296,
+      "sha256": "bfcc2b41c063821df8fdec15667493c7e12dfa3bb99511d6cb9fc11dc70a4792"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "ORIGINAL_SKILL.md",
+      "bundled_path": "references/source-library/S10/ORIGINAL_SKILL.md",
+      "bytes": 27920,
+      "sha256": "cd094def21ecbb0d64fc5d0c4d757213010de1ec5674da35be2366341b03c13d"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "README.md",
+      "bundled_path": "references/source-library/S10/README.md",
+      "bytes": 678,
+      "sha256": "0099d1d245efc340b42f4e345e1b69233b34aa774db6d13f88ea3c40edd4bec8"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "assets/literature_review_matrix_template.md",
+      "bundled_path": "references/source-library/S10/assets/literature_review_matrix_template.md",
+      "bytes": 1891,
+      "sha256": "702e91cf45aa42908dae11b154beee222e14ea7945b3f6488a6d91e27bb3b4ba"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "assets/revision_report_template.md",
+      "bundled_path": "references/source-library/S10/assets/revision_report_template.md",
+      "bytes": 1478,
+      "sha256": "eec666b7b85665e09201111b7aec7699630831e9ad1aca6f304e1a330deb0121"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "checklist.md",
+      "bundled_path": "references/source-library/S10/checklist.md",
+      "bytes": 1231,
+      "sha256": "ce3919574e17ce224ec055e92af0703b057bbb6ae813791d55db3dd0a9a575a4"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "citation_rules.md",
+      "bundled_path": "references/source-library/S10/citation_rules.md",
+      "bytes": 1008,
+      "sha256": "1c80d09038927fc63573f946da131927296b0f861166c928ee115bc6fdd2efe9"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "examples/good_outline.md",
+      "bundled_path": "references/source-library/S10/examples/good_outline.md",
+      "bytes": 1238,
+      "sha256": "af2b1e4b6157f4a9a1d652909146b8fb56bcef7cff2b085bb3d72a9603df1cc8"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "examples/sample_review.md",
+      "bundled_path": "references/source-library/S10/examples/sample_review.md",
+      "bytes": 976,
+      "sha256": "ccc9622b868a05bccebf888365b35776642786e1ba57a377d23a0480b4fb1a91"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "examples/weak_outline.md",
+      "bundled_path": "references/source-library/S10/examples/weak_outline.md",
+      "bytes": 583,
+      "sha256": "53f15c4139d9930047f096d93593022efe38e4867f2eec72d9a347e85c33d9e5"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "literature_review_rubric.md",
+      "bundled_path": "references/source-library/S10/literature_review_rubric.md",
+      "bytes": 1182,
+      "sha256": "11c55968b1b6c3e7749b0403c27c6365dfae0b3b7c829e74baab24f6df88e9c6"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "methodology_rubric.md",
+      "bundled_path": "references/source-library/S10/methodology_rubric.md",
+      "bytes": 1279,
+      "sha256": "f2f0fc9d87a5a68e99e563c77d67da09f21ac3184f5deeec741221082590e4bc"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "paper_structure.md",
+      "bundled_path": "references/source-library/S10/paper_structure.md",
+      "bytes": 1370,
+      "sha256": "62561aaff716603b53ebaed32f776cc58e7e728b778001c9727ab3e6860a7e3d"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/citation_safety_rules.md",
+      "bundled_path": "references/source-library/S10/references/citation_safety_rules.md",
+      "bytes": 3546,
+      "sha256": "52abb1a39dce61abface937e947eaa9cb06be72d65af9310a5e0c01c4914f41d"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/data_analysis_rules.md",
+      "bundled_path": "references/source-library/S10/references/data_analysis_rules.md",
+      "bytes": 8499,
+      "sha256": "81098b07fc18e2e6337edf5b1c415f6ea1176448691a7fd926a7c2f85bc5e8e2"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/data_collection_rules.md",
+      "bundled_path": "references/source-library/S10/references/data_collection_rules.md",
+      "bytes": 6883,
+      "sha256": "519d8ce970a0f350d29c609da15fab106837e8ac5d58511613ac885ceee61563"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/key_principles.md",
+      "bundled_path": "references/source-library/S10/references/key_principles.md",
+      "bytes": 38407,
+      "sha256": "1d915f7863ba9ab2e27b2018dc13ab289a8f78cc90d48c096eb71ae02d1a9887"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/literature_review_rubric.md",
+      "bundled_path": "references/source-library/S10/references/literature_review_rubric.md",
+      "bytes": 4134,
+      "sha256": "f73c5df1b9be8307be14916b6ebedba6a1b2e474a8c6d63598e05c4ad91b06e1"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/literature_search_zotero_workflow.md",
+      "bundled_path": "references/source-library/S10/references/literature_search_zotero_workflow.md",
+      "bytes": 9919,
+      "sha256": "2a4ef6e142e40f996523de97b330ac0d9690ab1f24b22cf5e42f84273b4fb569"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "references/research_design_rubric.md",
+      "bundled_path": "references/source-library/S10/references/research_design_rubric.md",
+      "bytes": 4844,
+      "sha256": "497c9e2b1da9a14a8435558b105ac3e55b022b3673d5ff8155c6be764da5297c"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "revision_workflow.md",
+      "bundled_path": "references/source-library/S10/revision_workflow.md",
+      "bytes": 1013,
+      "sha256": "69d14680eb4893c7be72b0318b0cc280ed2a0185b437c4ff0626f0d6eeac62b8"
+    },
+    {
+      "source_id": "S10",
+      "source_skill": "social-science-paper-writing-skill",
+      "source_relative_path": "self-test.md",
+      "bundled_path": "references/source-library/S10/self-test.md",
+      "bytes": 5694,
+      "sha256": "dd00d1e97b89b42515f57f1a3adba3f6935b28b6b7c0818728d480083910ba46"
+    }
+  ]
+}
